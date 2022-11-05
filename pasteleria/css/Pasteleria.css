@@ -1,0 +1,188 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eceaea;
+    align-items: center;
+    align-content: center;
+}
+p{
+    text-align: justify;
+    padding: 30px;
+    margin: 30px;
+}
+.pregunta{
+    padding: 5px;
+    margin: 5px;
+}
+
+.container-nav{
+    background-color: #00ffff9f;
+    width: 100vw;
+    height: 80px;
+}
+.container-carrusel{
+    width: 100vw;
+}
+.container-contenido{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 70%;
+    font-size: large;
+    font-weight: bold;
+    margin: auto;
+}
+.footer{
+    background-color: #00ffff9f;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sabores{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.decoraciones{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.pedido{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.bizcocho,.relleno,.cubierta{
+    padding-bottom: 150px;
+}
+ul{
+    padding-bottom: 10px;
+}
+hr{
+    flex: 0 0 100%;
+}
+
+
+.logo{
+    padding: 10px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+
+
+.enlaces{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+.enlaces:hover{
+    color: red;
+    text-decoration: overline;
+}
+
+
+.imagenIzquierda{
+    float: left;
+    vertical-align: middle;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.imagenDerecha{
+    float: right;
+    vertical-align: middle;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.aviso,.links,.informativo{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.formPedido{
+    border: #000;
+    border-style: dashed;
+    border-width: 5px;
+    padding: 10px;
+    margin: auto;
+}
+.opcionesFormulario{
+    margin: auto auto auto 100px;
+}
+
+.pedidosPendientes{
+    border: #000;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+    border-collapse: collapse;
+    margin: auto auto auto auto;
+}
+
+.bizcochoCantidad,.rellenoCantidad,.cubiertasCantidad,
+.figurasCantidad,.mensajesCantidad,.comestiblesCantidad{
+    position: relative;
+    border: #000;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    border-collapse: collapse;
+    margin-right: auto auto auto auto; 
+}
+.inventario{
+    margin: auto;
+}
+
+.colInventario{
+    padding: 15px;
+}
+
+.pedidos{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: auto auto 300px auto;
+}
+
+.datosPedidos,.headPedidos,.tdPedidos{
+    border: #000;
+    border-style: solid;
+    border-width: 3px;
+    padding: 12.5px;
+}
+
+.headPedidos{
+    background-color: #e0dfa9bb;
+}
+.tdPedidos{
+    background-color: #96b46bc5;
+}
+
+.headsInterno,.datosInterno,.headInterno{
+    border: #000;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
