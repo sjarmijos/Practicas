@@ -1,6 +1,5 @@
 # Practicas
 
-En esta carpeta del repositorio se encuetra la práctica de realizar la maquetación de la pagina web que
-que maneja un pastelería, donde se crea un marca, dentro de las diferentes carpetas se puede
-acceder al codigo de la pagina que esta dividida en varios documentos HTML, adicionalmente también
-se tiene acceso a los recursos visuales que se han utilizado al igual que a la hoja de estilos CSS
+Aqui se podran encontrar todas las prácticas de la Misión Frontend llevada a cabo los meses anteriores
+
+2. Aquí se visualiza la práctica de HTML donde se crea una Pastelería [Pasteleria Pastelerico](https://github.com/sjarmijos/Practicas/tree/main/pasteleria).
