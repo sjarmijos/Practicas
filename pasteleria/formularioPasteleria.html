@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="./css/Pasteleria.css">
+    <link rel="shortcut icon" href="./img/pasteleria/logollano.png" type="image/x-icon">
+</head>
+<body>
+    <section class="container-nav">
+        <div class="logo">
+            <a href="./Pasteleria.html" class="enlace">
+                <img class="img-logo" src="./img/pasteleria/logoSF.png" alt="logoPastelería" width="60px" height="55px">
+            </a>
+
+        </div>
+        <div class="navegacion">
+            <a href="./Sabores.html" class="enlaces" target="_blank">Sabores</a>
+            <a href="./decoraciones.html" class="enlaces" target="_blank">Decoraciones</a>
+            <a href="./formularioPasteleria.html" class="enlaces" target="_blank">Crea tu Pedido</a>
+            <a href="./menuPastelero.html" class="enlaces" target="_blank">Menu Pasteleros</a>
+        </div>
+    </section>
+
+    <section class="container-carrusel">
+        <img src="./img/pasteleria/Pastelerico SA.png" alt="bannerPasteleria" width="100%" height="88%">
+    </section>
+
+    <section class="container-contenido">
+        
+        <div class="formPedido">
+            <h1 style="text-align: center; color: red;">Formulario de Creación</h1><br>
+            
+            <form action="" class="fomularioCliente">
+                <label for="">Crea tu pastel</label><br><br>
+                <label for="nombreCliente">Nombre y Apellido de la persona que hace y retira el pedido:</label><br><br>
+                <input type="text" placeholder="Ingresa tu nombre y apellido para el pedido" name="nombreCliente" id="nombreCliente"><br><br><br>
+                <label for="telCliente">Ingrese su número de telefono</label><br><br>
+                <input type="number" name="telCliente" id="telCliente" maxlength="10" placeholder="Telefono fijo o celular"><br><br><br>
+                <label for="e-mail">Ingrese su correo electrónico</label><br><br>
+                <input type="email" name="e-mail" id="e-mail" placeholder="Correo Electrónico"><br><br>
+
+                <p class="pregunta" style="color: blue;">Personaliza tu bizcocho</p>
+                <p class="pregunta">¿De qué sabor o sabores quieres el bizcocho de tu pastel?</p>
+                <div class="opcionesFormulario">
+                    <input type="checkbox" name="Vainilla" id="Vainilla">
+                    <label for="Vainilla">Vainilla</label>
+                    <br>
+                    <input type="checkbox" name="Chocolate" id="Chocolate">
+                    <label for="Chocolate">Chocolate</label>
+                    <br>
+                    <input type="checkbox" name="Fresa" id="Fresa">
+                    <label for="Fresa">Fresa</label>
+                    <br>
+                    <input type="checkbox" name="Limon" id="Limon">
+                    <label for="Limon">Limon</label>
+                </div>
+                <p class="pregunta">¿Con qué Relleno quieres tu patel?</p>
+                <div class="opcionesFormulario">
+                    <input type="checkbox" name="Mermelada" id="Mermelada">
+                    <label for="Mermelada">Mermelada</label>
+                    <br>
+                    <input type="checkbox" name="Ganache" id="Ganache">
+                    <label for="Ganache">Ganache</label>
+                    <br>
+                    <input type="checkbox" name="Crema para batir" id="Crema para batir">
+                    <label for="Crema para batir">Crema para batir</label>
+                    <br>
+                    <input type="checkbox" name="rellenoChocolate" id="rellenoChocolate">
+                    <label for="rellenoChocolate">Chocolate</label>
+                </div>
+                <p class="pregunta">¿Con qué sabor de Cubierta quieres tu patel?</p>
+                <div class="opcionesFormulario">
+                    <input type="checkbox" name="Caramelo suave" id="Caramelo suave">
+                    <label for="Caramelo suave">Caramelo suave</label>
+                    <br>
+                    <input type="checkbox" name="Frutas" id="Frutas">
+                    <label for="Frutas">Frutas</label>
+                    <br>
+                    <input type="checkbox" name="Fondant" id="Fondant">
+                    <label for="Fondant">Fondant</label>
+                    <br>
+                    <input type="checkbox" name="Chantilly" id="Chantilly">
+                    <label for="Chantilly">Chantilly</label>
+                    <br>
+                    <input type="checkbox" name="Merengue" id="Merengue">
+                    <label for="Merengue">Merengue</label>
+                </div><br>
+                <p class="pregunta" style="color: blue;">Selecciona las decoraciones que quieres en tu pastel</p>
+                <p class="pregunta">¿Quieres alguna figurita en tu pastel?</p>
+                <div class="opcionesFormulario">
+                    <input type="checkbox" name="Muñecos de novios" id="Muñecos de novios">
+                    <label for="Muñecos de novios">Muñecos de novios</label>
+                    <br>
+                    <input type="checkbox" name="Figuras de acción" id="Figuras de acción">
+                    <label for="Figuras de acción">Figuras de acción</label>
+                    <br>
+                    <input type="checkbox" name="Carritos" id="Carritos">
+                    <label for="Carritos">Carritos</label>
+                    <br>
+                    <input type="checkbox" name="Figuras de animales" id="Figuras de animales">
+                    <label for="Figuras de animales">Figuras de animales</label>
+                    <br>
+                    <input type="checkbox" name="Ninguna" id="Ninguna">
+                    <label for="Ninguna">Ninguna</label>
+                </div>
+                <p class="pregunta">¿Quieres algún Mensaje en tu pastel?</p>
+                <div class="opcionesFormulario">
+                    <input type="checkbox" name="Feliz cumpleaños Chocolate" id="Feliz cumpleaños Chocolate">
+                    <label for="Feliz cumpleaños Chocolate">Feliz cumpleaños Chocolate</label>
+                    <br>
+                    <input type="checkbox" name="Felicitaciones" id="Felicitaciones">
+                    <label for="Felicitaciones">Felicitaciones Manjar</label>
+                    <br>
+                    <input type="checkbox" name="Mi bautizo" id="Mi bautizo">
+                    <label for="Mi bautizo">Mi bautizo Mermelada Roja/Amarilla</label>
+                    <br>
+                    <input type="checkbox" name="Graduacion" id="Graduacion">
+                    <label for="Graduacion">Graduacion Caramelo cualquier color</label><br>
+                    <label for="colorCaramelo">¿Qué color de caramelo deseas?</label>
+                    <input type="color" name="colorCaramelo" id="colorCaramelo">
+                    <br>
+                    <input type="checkbox" name="Ninguna" id="Ninguna">
+                    <label for="Ninguna">Ninguna</label>
+                </div>
+                <p class="pregunta">¿Quieres algún Comestible en tu pastel?</p>
+                <div class="opcionesFormulario">
+                    <input type="checkbox" name="Fotografias/imagenes" id="Fotografias/imagenes">
+                    <label for="Fotografias/imagenes">Fotografias/imagenes</label>
+                    <br>
+                    <input type="checkbox" name="Velas" id="Velas">
+                    <label for="Velas">Velas</label>
+                    <br>
+                    <input type="checkbox" name="MuñecosComestibles" id="MuñecosComestibles">
+                    <label for="MuñecosComestibles">Muñecos Comestibles</label>
+                    <br>
+                    <input type="checkbox" name="CarritosComestibles" id="CarritosComestibles">
+                    <label for="CarritosComestibles">Carritos Comestibles</label>
+                    <br>
+                    <input type="checkbox" name="Ninguna" id="Ninguna">
+                    <label for="Ninguna">Ninguno</label>
+                </div>
+                <br><br>
+                <center>
+                    <button type="submit">Enviar pedido</button>
+                </center>
+            </form>
+        </div>
+        <br><br>
+    </section>
+    <section class="footer">
+        <div class="aviso">
+            Este sitio hace uso de los datos de navegación dentro de la misma página para poder mostrarle la mejor y
+            más personalizada información que tenemos a la mano y así proporcionarle una experiencia agradable al
+            usar nuestro sitio web. <br><br>
+            -Pastelerico
+        </div>
+        <div class="links">
+            <a href="./Sabores.html" class="enlaces">Sabores</a> <br><br>
+            <a href="./decoraciones.html" class="enlaces">Decoraciones</a> <br><br>
+            <a href="./formularioPasteleria.html" class="enlaces">Crea tu Pedido</a><br><br>
+            <a href="./menuPastelero.html" class="enlaces">Menu Pasteleros</a> <br><br>
+        </div>
+        <div class="informativos">
+            Direccion: PFXJ+W95, Quito 170121 <br><br>
+            Teléfono: (02)2222222 <br><br>
+            E-mail: pastelerico@gmail.com <br><br>
+        </div>
+    </section>
+</body>
+</html>
