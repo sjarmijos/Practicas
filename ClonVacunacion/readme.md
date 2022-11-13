@@ -1,6 +1,6 @@
 # Practicas Clon Landing-Page Vacunación
 
-En esta carpeta del repositorio se encuetra la práctica de realizar un clon lo ma sparecido posible del [Diseño Proporcionado](https://github.com/sjarmijos/Practicas/blob/main/pasteleria/Pasteleria.html).
+En esta carpeta del repositorio se encuetra la práctica de realizar un clon lo ma sparecido posible del [Diseño Proporcionado](https://github.com/Launch-X-Latam/MisionFrontEnd/blob/main/03%20-%20CSS/practica/landingVacunación.png).
 de una Landing-Page de vacunación, dentro de las diferentes carpetas se puede
 acceder al codigo de la página, adicionalmente también se tiene acceso a los recursos 
 visuales que se han utilizado al igual que a la hoja de estilos CSS.
